@@ -1,0 +1,45 @@
+<form class ="hero-unit">
+  <fieldset>
+    <legend>Ты самая красивая девушка на этом свете</legend>
+    <p> Маша, наша встреча это не случайность, это судьба, два человека на столько <br>
+    похожие друг на друга должны быть вместе, расстояние этому не преграда.<br>
+	Я сделаю все возможное для того, чтобы переехать в тебе скорее!!! <br>
+	Но так как в этот день меня нет с тобой рядом, я решил подготовить такой<br>
+	необычный подарок</p>
+
+    <p>
+	<%= link_to "Хочу скорее свой подарок", gift_path, class: "btn btn-primary btn-large" %>
+</p>
+  </fieldset>
+</form>
+
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href= "#tab1"  data-toggle="tab">Мои статьи</a></li>
+    <li><a href= "#tab2"  data-toggle="tab">Статьи моих друзей</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>Здесь хранятся мои рассказы.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>Здесь хранятся чужие истории.</p>
+    </div>
+  </div>
+</div>
+  
+
+  <address>
+  <strong>Medium, Inc.</strong><br>
+  Novoslobodskaya, 600<br>
+  Moscow, 125466<br>
+  <abbr title="Phone">P:</abbr> (495) 456-7890
+</address>
+ 
+<address>
+  <strong>Full Name</strong><br>
+  <a href="mailto:#">info@medium.com</a>
+</address>
+
+</body>
+</html>
